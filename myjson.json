@@ -1,0 +1,10 @@
+[{"url":"images/img1.jpg",
+   "bannertxt" : "image one"
+ },
+ {"url":"images/img2.jpg",
+   "bannertxt" : "image two"},
+ {"url":"images/img3.jpg",
+   "bannertxt" : "image three"},
+ {"url":"images/img4.jpg", 
+   "bannertxt" : "image four"}
+]
