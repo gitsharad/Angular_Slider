@@ -9,7 +9,8 @@
 <body>
 	<div class="wrapper" ng-app="slider_module">
 		<div id="slider_main" ng-controller="imgslider_ctlr">
-            <div id="slider" slider-directive>
+          <div> 
+		    <div id="slider" slider-directive>
                <div class="item" ng-repeat="imgdata in imglists">
                     <img ng-src={{imgdata.url}}>
 					<h2>{{imgdata.bannertxt}}</h2>
@@ -21,9 +22,10 @@
 			</div>
 			<div class="slide_nav">
 				<ul>
-					<li ng-repeat="imgdata in imglists" ng-click="onSlideNav($event,$index)"></li>
+					<li ng-repeat="imgdata in imglists" ng-class="$index==slideindex ? 'selectitem' : '' " ng-click="onSlideNav($event,$index)"></li>
 				</ul>
 			</div>
+          </div>
 			
 		</div>
 	</div>

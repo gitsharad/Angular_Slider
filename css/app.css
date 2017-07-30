@@ -14,7 +14,10 @@
     top:45%;
 }
 #slider{
-   /* display: inline-block;*/
+   /* display: inline-block;*/  
+}
+.selectitem{
+    border:2px solid black !important;
 }
 .arrow span{
   padding:10px;
